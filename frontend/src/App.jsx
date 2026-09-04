@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 
-const API = "http://localhost:3000";
+const API = "https://x-monitor-zha3.onrender.com/";
 
 function formatDate(value) {
   return new Date(value).toLocaleString("pt-BR");
